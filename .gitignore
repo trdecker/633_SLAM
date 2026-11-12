@@ -1,0 +1,33 @@
+# data and outputs
+data/
+results/
+
+# large binaries, but keep the small fixtures
+*.bin
+*.npz
+!fixtures/*.npz
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# tools
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# development tools
+.vs/
+.vscode/
+.vsconfig
+.claude
+
+# Mac Artifacts
+.DS_Store
+
